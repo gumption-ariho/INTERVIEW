@@ -8,9 +8,12 @@ public class ReverseSinglyLinkedList {
         heady.next.next.next=new Node(4);
 
        //print(heady);
-      /* Node nd = reverseRecursive(heady);
-       print(nd);*/
+      Node nd = reverseRecursive(heady);
+       print(nd);
+       /*
        print(reverseIterative(heady));
+
+        */
 
     }
     static Node reverseRecursive(Node head){

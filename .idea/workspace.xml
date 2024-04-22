@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3101f88c-eb6d-413f-9259-e9ececa34bf6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blind75/ReverseSinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blind75/ReverseSinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/Traversals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Traversals">
     <configuration name="ReverseSinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Blind75.ReverseSinglyLinkedList" />
       <module name="INTERVIEW" />
@@ -59,8 +58,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Traversals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.Traversals" />
+      <module name="INTERVIEW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Traversals" />
         <item itemvalue="Application.ReverseSinglyLinkedList" />
       </list>
     </recent_temporary>
@@ -73,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712954399432</updated>
-      <workItem from="1712954400933" duration="6787000" />
+      <workItem from="1712954400933" duration="11278000" />
     </task>
     <servers />
   </component>
