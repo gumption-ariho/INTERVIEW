@@ -6,6 +6,7 @@ public class SortAlgoz {
     public static void main(String...args){
         System.out.println(Arrays.toString(bubbleSort(new int[]{5,1,0,8,-1,7,11,-4})));
         System.out.println(Arrays.toString(selectionSort(new int[]{5,1,0,8,-1,7,11,-4})));
+        System.out.println(Arrays.toString(insertionSort(new int[]{5,1,0,8,-1,7,11,-4})));
     }
 
     static int[] bubbleSort(int[]a){
@@ -42,5 +43,19 @@ public class SortAlgoz {
     return a;
     }
 
-    
+    static int[]insertionSort(int[]a){
+        for(int i=0;i<a.length-1;i++){
+            int j=i;
+            while(j>=0&&a[j]>a[j+1]){
+                int temp = a[j];
+                a[j]=a[j+1];
+                a[j+1]=temp;
+                j--;
+            }
+        }
+        return a;
+    }
+
+
+    //static int[] mergeSort(){}
 }
