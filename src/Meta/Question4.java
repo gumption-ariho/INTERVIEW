@@ -6,7 +6,7 @@ public class Question4 {
         public static void main(String...args){
             //System.out.println(threeSum(new int[]{-1,0,1,2,-1,-4}));
             //System.out.println(threeSum(new int[]{0,0,0,0,0,0,0}));
-            System.out.println(threeSum(new int[]{-2,0,1,1,2}));
+            System.out.println(threeSum2(new int[]{-2,0,1,1,2}));
         }
     static List<List<Integer>> threeSum(int[] nums) {
         //prev point
@@ -30,4 +30,28 @@ public class Question4 {
         }
         return listy;
     }
+
+    static List<List<Integer>> threeSum2(int[] nums) {
+            List<List<Integer>>listy = new ArrayList<>();
+            HashSet<List<Integer>>setty= new HashSet<>();
+            for(int i=0;nums.length-3>=i;i++){
+                //-2,0,1,1,2
+                int central=i+1;
+                int after=central+1;
+                while(after<nums.length && central<after){
+                   int sum=nums[i]+nums[central]+nums[after];
+                   if(sum==0&&setty.add(Arrays.asList(nums[i],nums[central],nums[after]))){
+                     listy.add(Arrays.asList(nums[i],nums[central],nums[after]));
+                   }
+                   if(after==nums.length-1){
+                       central++;
+                       after=central+1;
+                   }else{
+                       after++;
+                   }
+                  }
+            }
+            return listy;
+    }
+
 }
