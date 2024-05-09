@@ -18,7 +18,7 @@ public class ReverseLinkedListEvens {
 
     static void display(Node11 n) {
         while (n != null) {
-            System.out.print(n.value + " ");
+            //System.out.print(n.value + " ");
             n = n.next;
         }
         System.out.println();
