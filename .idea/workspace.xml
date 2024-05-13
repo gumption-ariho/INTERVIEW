@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3101f88c-eb6d-413f-9259-e9ececa34bf6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HackerRank/Walmart/Problem1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/Walmart/Problem2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/Walmart/Problem3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/Walmart/TreeTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +48,35 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Problem1">
+  <component name="RunManager" selected="Application.TreeTraversal">
     <configuration name="Problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HackerRank.Walmart.Problem1" />
+      <module name="INTERVIEW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HackerRank.Walmart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.Walmart.Problem2" />
+      <module name="INTERVIEW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HackerRank.Walmart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.Walmart.Problem3" />
       <module name="INTERVIEW" />
       <extension name="coverage">
         <pattern>
@@ -72,38 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Meta.Question5" />
+    <configuration name="TreeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.Walmart.TreeTraversal" />
       <module name="INTERVIEW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Meta.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Meta.Question8" />
-      <module name="INTERVIEW" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Meta.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Meta.Question9" />
-      <module name="INTERVIEW" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Meta.*" />
+          <option name="PATTERN" value="HackerRank.Walmart.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeTraversal" />
+        <item itemvalue="Application.Problem3" />
+        <item itemvalue="Application.Problem2" />
         <item itemvalue="Application.Problem1" />
         <item itemvalue="Application.Question10" />
-        <item itemvalue="Application.Question9" />
-        <item itemvalue="Application.Question8" />
-        <item itemvalue="Application.Question5" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712954399432</updated>
-      <workItem from="1712954400933" duration="60034000" />
+      <workItem from="1712954400933" duration="71164000" />
     </task>
     <servers />
   </component>
