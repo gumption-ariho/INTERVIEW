@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3101f88c-eb6d-413f-9259-e9ececa34bf6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HackerRank/Walmart/Problem2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HackerRank/Walmart/Problem3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HackerRank/Walmart/TreeTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/Walmart/NodeReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/Walmart/Streamz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,25 +44,13 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TreeTraversal">
-    <configuration name="Problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HackerRank.Walmart.Problem1" />
-      <module name="INTERVIEW" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HackerRank.Walmart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HackerRank.Walmart.Problem2" />
+  <component name="RunManager" selected="Application.NodeReverse">
+    <configuration name="NodeReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.Walmart.NodeReverse" />
       <module name="INTERVIEW" />
       <extension name="coverage">
         <pattern>
@@ -80,7 +67,7 @@
       <module name="INTERVIEW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HackerRank.Walmart.*" />
+          <option name="PATTERN" value="HackerRank.Walmart.NodeReverse" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +75,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Meta.Question10" />
+    <configuration name="Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.Walmart.Stream" />
       <module name="INTERVIEW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Meta.*" />
+          <option name="PATTERN" value="HackerRank.Walmart.NodeReverse" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Streamz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.Walmart.Streamz" />
+      <module name="INTERVIEW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HackerRank.Walmart.NodeReverse" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,7 +106,7 @@
       <module name="INTERVIEW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HackerRank.Walmart.*" />
+          <option name="PATTERN" value="HackerRank.Walmart.NodeReverse" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NodeReverse" />
         <item itemvalue="Application.TreeTraversal" />
+        <item itemvalue="Application.Streamz" />
+        <item itemvalue="Application.Stream" />
         <item itemvalue="Application.Problem3" />
-        <item itemvalue="Application.Problem2" />
-        <item itemvalue="Application.Problem1" />
-        <item itemvalue="Application.Question10" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712954399432</updated>
-      <workItem from="1712954400933" duration="71164000" />
+      <workItem from="1712954400933" duration="76397000" />
     </task>
     <servers />
   </component>
